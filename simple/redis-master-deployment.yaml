@@ -21,7 +21,7 @@ spec:
           image: docker.io/nmajorov/redis-master:2.8.9
           resources:
             requests:
-              cpu: 100m
+              cpu: 200m
               memory: 100Mi
           ports:
             - containerPort: 6379
